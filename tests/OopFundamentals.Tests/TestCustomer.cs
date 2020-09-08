@@ -3,10 +3,10 @@ using Xunit;
 
 namespace OopFundamentals.Tests
 {
-    public class UnitTest1
+    public class TestCustomer
     {
         [Fact]
-        public void TestCustomer()
+        public void TestFullName()
         {
             var customer = new Customer("Bilbo", "Baggins");
             var expect = "Bilbo Baggins";
